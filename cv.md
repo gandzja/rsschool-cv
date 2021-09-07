@@ -6,10 +6,10 @@
 
 ### Contact information:
 
-**Phone:** +38-095-218-74-48
-**E-mail:** annakuzminova@protonmail.com
-[LinkedIn](https://www.linkedin.com/in/annakuzminova/)
-[github](https://github.com/gandzja)
+**Phone:** +38-095-218-74-48 <br>
+**E-mail:** annakuzminova@protonmail.com<br>
+[LinkedIn](https://www.linkedin.com/in/annakuzminova/)<br>
+[github](https://github.com/gandzja)<br>
 
 ---
 
