@@ -11,7 +11,7 @@
 [LinkedIn](https://www.linkedin.com/in/annakuzminova/)<br>
 [github](https://github.com/gandzja)<br>
 
----
+- - -
 
 ### About me:
 
@@ -29,7 +29,7 @@ I finished  online courses:
 - [JavaScript](https://www.sololearn.com/certificates/course/en/8101908/1024/landscape/png)
 - [English for Career Development](https://courses.prometheus.org.ua:18090/downloads/10d407f7d84540dc81241ef2961cece7/Certificate.pdf)
 
----
+- - -
 
 ### Skills and Proficiency:
 
@@ -41,7 +41,7 @@ I finished  online courses:
 - English - Pre-Intermediate
 - Polish - Beginner
 
----
+- - -
 
 ### Code example:
 
@@ -55,48 +55,48 @@ function friend(friends){
 }
 ```
 
----
+- - -
 
 ### Work Experience:
 
-**PJSC "UKRPOSHTA"**
-aug 2020
-*Technical Support Specialist*
+**PJSC "UKRPOSHTA"**<br>
+aug 2020<br>
+*Technical Support Specialist*<br>
 
 - software support
 - installation and configuration of OS and MS Office
 ensuring the operation of peripheral equipment (printers, scanners, cash registers)
 - remote maintenance and support of liaison offices
 
-**LLC. "PBC"**
-feb 2008 - aug 2017
-*Office department specialist*
+**LLC. "PBC"**<br>
+feb 2008 - aug 2017<br>
+*Office department specialist*<br>
 
 - systematization and storage of documents in the archive
 - digitization of documentation
 - control and accounting of timely documentation
 
-**LLC "SPC "Astro-Youg"**
-jul 2007 - sep 2007
-*Office Manager*
+**LLC "SPC "Astro-Youg"**<br>
+jul 2007 - sep 2007<br>
+*Office Manager*<br>
 
 - preparation of commercial offers, contracts, specifications, receipts of bank documents, payment of bills
 
-**National Metallurgical Academy**
-oct 2006 - jun 2007
-*Laboratory Assistant at the Department of Powder Metallurgy and Metal Protection*
+**National Metallurgical Academy**<br>
+oct 2006 - jun 2007<br>
+*Laboratory Assistant at the Department of Powder Metallurgy and Metal Protection*<br>
 
 - Performed clerical duties
 
----
+- - -
 
 ### Education:
 
-**National Metallurgical Academy of Ukraine**
-Specialist in metallurgy of ferrous metals, 2007
+**National Metallurgical Academy of Ukraine**<br>
+Specialist in metallurgy of ferrous metals, 2007<br>
 
-**Level UP**
-Front-end Developer, 2019
+**Level UP**<br>
+Front-end Developer, 2019<br>
 
-**Dnipropetrovsk Center for Vocational Education of the State Employment Service**
-Website Development Basics, 2020
+**Dnipropetrovsk Center for Vocational Education of the State Employment Service**<br>
+Website Development Basics, 2020<br>
