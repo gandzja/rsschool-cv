@@ -15,10 +15,10 @@
 
 ### About me:
 
-I was always good at computers. I like dealing with installation of programs, working on computer.
-That is way I did to finish the frontend course. I have good a knowledge of HTML, CSS and JavaScript.
-I am responsible, initiative, multitasking, self-organized, reliable, stress resistant, punctual, sensible, eager to learn.
-I have excellent written and verbal communicating skills.
+I was always good at computers. I like dealing with installation of programs, working on computer.<br>
+That is way I did to finish the frontend course. I have good a knowledge of HTML, CSS and JavaScript.<br>
+I am responsible, initiative, multitasking, self-organized, reliable, stress resistant, punctual, sensible, eager to learn.<br>
+I have excellent written and verbal communicating skills.<br>
 
 I finished  online courses:
 
@@ -45,8 +45,8 @@ I finished  online courses:
 
 ### Code example:
 
-**Friend or Foe? from CODEWARS:** _Make a program that filters a list of strings and returns a list with only your friends name in it._
-_If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not..._
+**Friend or Foe? from CODEWARS:** _Make a program that filters a list of strings and returns a list with only your friends name in it._<br>
+_If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not..._<br>
 _Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]_
 
 ```
