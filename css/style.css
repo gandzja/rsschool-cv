@@ -246,7 +246,7 @@ code {
   .education {
     margin-bottom: 40px;
   }
-  ..code-example {
+  .code-example {
     margin: 0 20px;
   }
 }
