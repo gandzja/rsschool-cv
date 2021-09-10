@@ -10,6 +10,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -63,7 +64,7 @@ a:hover {
 .tech-skills,
 .soft-skills,
 .projects,
-.code-example {
+.education {
   font-size: 2.2em;
   font-weight: 700;
 }
@@ -81,7 +82,8 @@ a:hover {
 }
 .tech-skills__list,
 .soft-skills__list,
-.projects-list {
+.projects-list,
+.educational-institution {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -89,10 +91,18 @@ a:hover {
 }
 .tech-skills__list-item,
 .soft-skills__list-item,
-.projects-list__list-item {
+.projects-list__list-item,
+.educational-institution__title {
   color: #ffffff;
 }
-
+.educational-institution__title {
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+.educational-institution__description {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 .projects-list__list-item:hover {
   color: #ff6b08;
   transition: 1s;
@@ -102,21 +112,20 @@ a:hover {
   font-weight: 400;
   color: #ff6b08;
 }
-.code-example__description {
+/* .education {
   font-size: 1.4rem;
-  font-weight: 400;
-  padding-right: 40px;
-}
-pre {
-  position: relative;
-  right: 70px;
-  font-size: 1em;
-  padding: 0;
-  margin: 0;
-}
-code {
-  font-size: 1.2rem;
-}
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-bottom: 90px;
+} */
+/* .educational-institution__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ff6b08;
+} */
+
 .projects-list__description:hover {
   color: #ffffff;
   transition: 1s;
@@ -155,7 +164,7 @@ code {
   color: #ff6b08;
 }
 .experience__title,
-.education__title {
+.code-example__title {
   font-size: 2.2rem;
   font-weight: 700;
   color: #000000;
@@ -184,18 +193,14 @@ code {
   letter-spacing: 0.03em;
   color: #a8a8a8;
 }
-.education {
+.code-example__description {
   font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #000000;
-  margin-bottom: 90px;
+  font-weight: 400;
+  padding-right: 40px;
 }
-.educational-institution__title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #ff6b08;
+code {
+  font-size: 1.4rem;
+  background-color: #1e2939 !important;
 }
 .footer {
   width: 100%;
@@ -218,6 +223,10 @@ code {
 @media (max-width: 992px) {
   .content {
     max-width: 740px;
+  }
+  pre {
+    right: 124px;
+    font-size: 10px;
   }
 }
 @media (max-width: 578px) {
