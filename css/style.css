@@ -1,110 +1,14 @@
 @font-face {
   font-family: Montserrat;
-  src: url("../font/Montserrat-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-BlackItalic.ttf");
-  font-weight: 900;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
   src: url("../font/Montserrat-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Montserrat;
-  src: url("../font/Montserrat-BoldItalic.ttf");
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-ExtraBold.ttf");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-ExtraBoldItalic.ttf");
-  font-weight: 800;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-ExtraLight.ttf");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-ExtraLightItalic.ttf");
-  font-weight: 200;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-Italic.ttf");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-LightItalic.ttf");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-Medium.ttf");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-MediumItalic.ttf");
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
   src: url("../font/Montserrat-Regular.ttf");
   font-weight: 400;
   font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-SemiBold.ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-SemiBoldItalic.ttf");
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-Thin.ttf");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url("../font/Montserrat-ThinItalic.ttf");
-  font-weight: 100;
-  font-style: italic;
 }
 html {
   font-family: "Montserrat", sans-serif;
@@ -135,16 +39,17 @@ a:hover {
   background: #ffffff;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.15);
 }
 .aside {
-  width: 370px;
+  width: 33%;
   background-color: #1e2939;
   color: #ffffff;
 }
 .photo {
   padding-top: 40px;
-  width: 370px;
+  width: 100%;
 }
 .aside__content {
   padding-left: 40px;
@@ -157,22 +62,23 @@ a:hover {
 .contacts__title,
 .tech-skills,
 .soft-skills,
-.projects {
+.projects,
+.code-example {
   font-size: 2.2em;
   font-weight: 700;
 }
+.contacts-icons {
+  vertical-align: middle;
+  margin-right: 12px;
+}
 .contacts__link {
-  opacity: 0.5;
+  opacity: 0.7;
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
 }
-/* .contacts__link:hover {
-  text-decoration: underline;
-  transition: 1s;
-} */
 .tech-skills__list,
 .soft-skills__list,
 .projects-list {
@@ -186,44 +92,39 @@ a:hover {
 .projects-list__list-item {
   color: #ffffff;
 }
+
 .projects-list__list-item:hover {
   color: #ff6b08;
+  transition: 1s;
 }
-/* .projects ul.projects-list {
-  padding: 0;
-  padding-left: 20px;
-  overflow: hidden;
-  margin-right: 10px;
-  font-weight: 700;
-} */
-
-/* .projects ul.projects-list li::before {
-  float: left;
-  width: 0;
-  white-space: nowrap;
-  font-weight: 400;
-  content: " " " " " ";
-} */
-
-/* .projects ul.projects-list li a {
-  padding-left: 0.33em;
-  font-weight: 400;
-} */
-
 .projects-list__description {
-  /* float: right; */
   padding-left: 0.33em;
   font-weight: 400;
   color: #ff6b08;
+}
+.code-example__description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-right: 40px;
+}
+pre {
+  position: relative;
+  right: 70px;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+code {
+  font-size: 1.2rem;
 }
 .projects-list__description:hover {
   color: #ffffff;
+  transition: 1s;
 }
 .about-me {
   padding-top: 90px;
-  margin-left: 60px;
-  margin-right: 100px;
-  /* width: 535px; */
+  margin: 0 auto;
+  width: 50%;
   font-size: 1.4em;
 }
 .about-me__inf {
@@ -250,13 +151,15 @@ a:hover {
 .about-me__link {
   color: #1e2939;
 }
-iuv .experience__title,
+.about-me__link:hover {
+  color: #ff6b08;
+}
+.experience__title,
 .education__title {
   font-size: 2.2rem;
   font-weight: 700;
   color: #000000;
 }
-
 .experience {
   margin-bottom: 50px;
 }
@@ -293,6 +196,18 @@ iuv .experience__title,
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #ff6b08;
+}
+.footer {
+  width: 100%;
+  background-color: #ff6b08;
+}
+.footer-content {
+  width: 100px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.footer-info {
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
