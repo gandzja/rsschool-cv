@@ -1,0 +1,252 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #f5f7fa;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+.content {
+  max-width: 1140px;
+  margin: 40px auto;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.aside {
+  width: 33%;
+  background-color: #1e2939;
+  color: #ffffff;
+}
+.photo {
+  padding-top: 40px;
+  width: 100%;
+}
+.aside__content {
+  padding-left: 40px;
+}
+.contacts {
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.contacts__title,
+.tech-skills,
+.soft-skills,
+.projects,
+.education {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+.contacts-icons {
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.contacts__link {
+  opacity: 0.7;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.tech-skills__list,
+.soft-skills__list,
+.projects-list,
+.educational-institution {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ff6b08;
+}
+.tech-skills__list-item,
+.soft-skills__list-item,
+.projects-list__list-item,
+.educational-institution__title {
+  color: #ffffff;
+}
+.educational-institution__title {
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+.educational-institution__description {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.projects-list__list-item:hover {
+  color: #ff6b08;
+  transition: 1s;
+}
+.projects-list__description {
+  padding-left: 0.33em;
+  font-weight: 400;
+  color: #ff6b08;
+}
+.projects-list__description:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+.about-me {
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.4em;
+}
+.about-me__inf {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #595959;
+  margin-bottom: 60px;
+}
+.about-me__inf h1 {
+  font-family: Montserrat;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #000000;
+}
+.about-me__inf h2 {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.about-me__link {
+  color: #1e2939;
+}
+.about-me__link:hover {
+  color: #ff6b08;
+}
+.experience__title,
+.code-example__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000000;
+}
+.experience {
+  margin-bottom: 50px;
+}
+.work {
+  padding: 0;
+  padding-left: 20px;
+  font-size: 1.4rem;
+  letter-spacing: 0.03em;
+  color: #595959;
+}
+.work__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.job__title {
+  color: #ff6b08;
+}
+.data {
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+  color: #a8a8a8;
+}
+.code-example__description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-right: 40px;
+}
+code {
+  font-size: 1.4rem;
+  background-color: #1e2939 !important;
+}
+.footer {
+  width: 100%;
+  background-color: #ff6b08;
+}
+.footer-content {
+  width: 100px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.footer-info {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .content {
+    max-width: 740px;
+  }
+  .aside__content {
+    padding-left: 15px;
+  }
+  code {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 580px) {
+  .content {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .aside {
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+  }
+  .aside__content {
+    padding-left: 20px;
+  }
+  .about-me {
+    padding-top: 45px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .about-me__inf,
+  .projects,
+  .experience,
+  .education {
+    padding: 0 20px;
+  }
+  .education {
+    margin-bottom: 40px;
+  }
+  .code-example {
+    margin: 0 20px;
+  }
+}
