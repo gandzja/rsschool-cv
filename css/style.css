@@ -112,20 +112,6 @@ a:hover {
   font-weight: 400;
   color: #ff6b08;
 }
-/* .education {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #000000;
-  margin-bottom: 90px;
-} */
-/* .educational-institution__title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #ff6b08;
-} */
-
 .projects-list__description:hover {
   color: #ffffff;
   transition: 1s;
@@ -224,12 +210,14 @@ code {
   .content {
     max-width: 740px;
   }
-  pre {
-    right: 124px;
-    font-size: 10px;
+  .aside__content {
+    padding-left: 15px;
+  }
+  code {
+    font-size: 1rem;
   }
 }
-@media (max-width: 578px) {
+@media (max-width: 580px) {
   .content {
     width: 90%;
     flex-wrap: wrap;
@@ -247,6 +235,7 @@ code {
     padding-top: 45px;
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
   }
   .about-me__inf,
   .projects,
@@ -256,5 +245,8 @@ code {
   }
   .education {
     margin-bottom: 40px;
+  }
+  ..code-example {
+    margin: 0 20px;
   }
 }
